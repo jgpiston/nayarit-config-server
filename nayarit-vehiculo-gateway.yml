@@ -1,8 +1,7 @@
 zuul:
-   prefix: /api
-
+    prefix: /api
 management:
-  endpoints:
-    web:
+    endpoints:
+      web:
       exposure:
-        include: '*'
+      include: '*'
